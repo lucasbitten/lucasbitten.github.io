@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.project_title
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.project_time {
+    font-size: 0.9em;
+}
+
+.bg_projects
+{
+    background-color: #cccccc;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.bg_info {
+    padding-top: 15px;
+    background-color: #aaaaaa;
+}
+
+.section_title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.card_image_container {
+  background-color: "#9b1434";
+  height: 30%;
+}
+
+.card_body
+{
+  margin: 10px;
+  height: 300px;
+}
+
+.card_image_container img {
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background-color: #999999;
+}
+
+.bottom
+{
+  flex-direction: row-reverse;
+}
+
+.card-component {
+  height: 300px;
+  margin: 5px;
+}
