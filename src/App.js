@@ -11,12 +11,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 function App() {
   return (
 
-    <Container fluid className='bg_projects'>
-      <Container>
-        <img height="48" width="56" src="https://pngimg.com/uploads/under_construction/under_construction_PNG54.png" />
-        Under Construction...
-        <img height="48" width="56" src="https://pngimg.com/uploads/under_construction/under_construction_PNG54.png" />
-
+    <Container fluid>
+      <Container className="bg_projects">
         <section className="pb-3 mb-4 border-bottom section_title">
           Projects
         </section>
@@ -65,7 +61,7 @@ function App() {
             <ProjectCardComponent
               title="Unannounced project"
               time="July 2021 - December 2021"
-              projectImage="https://static.wixstatic.com/media/487d10_cfe1f4102da94f06aac7ec1e581c590a~mv2.webp"
+              projectImage="Question mark.png"
               environment="Unity, Visual Studio, C#"
               description="Implemented gameplay features to rapidly created prototype"
               playLink=""
@@ -78,7 +74,7 @@ function App() {
             <ProjectCardComponent
               title="Unannounced project"
               time="December 2023 - February 2024"
-              projectImage="https://static.wixstatic.com/media/487d10_cfe1f4102da94f06aac7ec1e581c590a~mv2.webp"
+              projectImage="Question mark.png"
               environment="Unity, Visual Studio, C#"
               description="Implemented foundation systems and added gameplay functionalities"
               playLink=""
@@ -116,7 +112,7 @@ function App() {
 
           <ListGroup.Item>
           <ExperienceCardComponent
-            title="Game Programer"
+            title="Game Programmer"
             companyName="Gameloft Toronto"
             time="July 2021 - February 2024"
             place="Toronto, Canada"
@@ -128,7 +124,7 @@ function App() {
 
           <ListGroup.Item>
           <ExperienceCardComponent
-            title="Game Programer"
+            title="Game Programmer"
             companyName="Game Pill"
             time="April 2021 - July 2021"
             place="Toronto, Canada"
@@ -157,7 +153,7 @@ function App() {
 
           <ListGroup.Item>
           <ExperienceCardComponent
-            title="Game Programer Intern"
+            title="Game Programmer Intern"
             companyName="Gameloft Toronto"
             time="May 2020 - September 2020"
             place="Toronto, Canada"
@@ -192,7 +188,7 @@ function App() {
             time="April 2015 - December 2017"
             place="Rio de Janeiro, Brazil"
             description=""
-            logoSrc="https://www.linkedin.com/search/results/all/?keywords=PIBID+-+UFF&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_position_details%3B4Bn%2FR0JpRPu%2B2Z3fv97SKA%3D%3D"
+            logoSrc="https://biodocencias.uff.br/wp-content/uploads/sites/695/2023/06/marca-pibid-AI.png"
             >
             </ExperienceCardComponent>
           </ListGroup.Item>
@@ -216,7 +212,7 @@ function App() {
         </Container>
       </Container>
 
-      <Container fluid className="bg_info">
+      <Container fluid className="bg_projects">
         <Container className="container">
 
           <section className="pb-3 mb-4 border-bottom section_title">
@@ -230,6 +226,7 @@ function App() {
             title="Centennial College"
             time="2019 - 2021"
             place="Toronto, Canada"
+            companyName=""
             description="Java Programming (Multithreading, Lambda, Collections, etc.)
             C# and ASP.Net Programming 3 (Lambda, Delegates, Collections, Multithreading, WPF, Entity Framework, etc.)
             Android Applications Development (Intents, Activities, Visual Components, etc)
@@ -247,6 +244,7 @@ function App() {
             time="2011 - 2018"
             place="Rio de Janeiro, Brazil"
             description=""
+            companyName=""
             logoSrc="https://media.licdn.com/dms/image/C560BAQEzOnkCNuO0EQ/company-logo_100_100/0/1653335082223/universidade_federal_fluminense_logo?e=1717027200&v=beta&t=wwXI-x_17w2k7jgxiZDkymxc6r4ouxS3KTVfgHmG-4A"
             >
             </ExperienceCardComponent>
