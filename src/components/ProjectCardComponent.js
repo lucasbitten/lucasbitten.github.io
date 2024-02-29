@@ -9,7 +9,7 @@ const ProjectCardComponent = ({ title, time, projectImage, environment, descript
       <Container style={{height: "200px", borderBottom: "solid 1px #dddddd", overflow: 'hidden'}}>
         <Card.Img className='blurred-image' src={projectImage} style={{height: `calc(100% + 20px)`,  marginTop: "-20px",  marginLeft: "-20px", marginRight: "-20px", width: `calc(100% + 40px)`}} />
 
-        <Card.Img src={projectImage} style={{height: "199px", objectFit: 'contain', position: 'absolute',  left: 0, right: 0}} />
+        <Card.Img src={projectImage} style={{height: "199px", objectFit: 'contain', position: 'absolute', top: 0, left: 0, right: 0}} />
       </Container>
     <Card.Body>
       <Card.Title>{title}</Card.Title>
