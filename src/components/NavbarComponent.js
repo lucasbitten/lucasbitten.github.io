@@ -21,10 +21,10 @@ function NavbarComponent() {
                     </Nav>
                     <Container className='d-flex flex-row-reverse gap-4'>
                         <a href='https://www.linkedin.com/in/lucasbbittencourt/'>
-                        <FontAwesomeIcon icon={faLinkedin} style={{ color: "#ffffff", height: '48px'}} />
+                        <FontAwesomeIcon icon={faLinkedin} className='social-icons'/>
                         </a>
                         <a href='https://github.com/lucasbitten'>
-                        <FontAwesomeIcon icon={faGithub} style={{ color: "#ffffff", height: '48px'}} />
+                        <FontAwesomeIcon icon={faGithub} className='social-icons' />
                         </a>
                     </Container>
                 </Navbar.Collapse>

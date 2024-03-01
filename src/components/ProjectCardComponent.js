@@ -7,9 +7,9 @@ const ProjectCardComponent = ({ title, companyName, projectImage, environment, d
   return (
     <Card className='card-component shadow shadow-md'>
       <Container style={{height: "200px", borderBottom: "solid 1px #dddddd", overflow: 'hidden'}}>
-        <Card.Img className='blurred-image' src={projectImage} style={{height: `calc(100% + 20px)`,  marginTop: "-20px",  marginLeft: "-20px", marginRight: "-20px", width: `calc(100% + 40px)`}} />
+        <Card.Img className='blurred-image' src={projectImage} style={{height: `calc(100% + 20px)`, width: `calc(100% + 40px)`}}/>
 
-        <Card.Img src={projectImage} style={{height: "199px", objectFit: 'contain', position: 'absolute', top: 0, left: 0, right: 0}} />
+        <Card.Img src={projectImage} className='project-image'/>
       </Container>
     <Card.Body>
       <Card.Title>{title}</Card.Title>
@@ -23,7 +23,7 @@ const ProjectCardComponent = ({ title, companyName, projectImage, environment, d
       <Card.Text style={{ height: "75px", overflow: "hidden" }}>
       {description}
       </Card.Text>
-      <Container className="d-flex justify-content-between bottom align-items-center" style={{padding: "0px"}} >
+      <Container className="d-flex justify-content-between card-bottom align-items-center" style={{padding: "0px"}} >
           <img width="48" height="48" src={logoSrc} alt="Company Logo" />
           {playLink && playLink.trim() !== '' && (
             <Button variant="outline-secondary" href={playLink}>Play</Button>

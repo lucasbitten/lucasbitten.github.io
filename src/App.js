@@ -7,18 +7,25 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import ListGroup from 'react-bootstrap/ListGroup';
+import Image from 'react-bootstrap/Image';
 
 function App() {
   return (
 
-    <Container fluid>
-      <NavbarComponent></NavbarComponent>
-      <Container className="bg_projects" id="projects"  style={{paddingTop: "130px"}}>
-        <section className="pb-3 mb-4 border-bottom section_title">
+    <Container fluid style={{marginTop: "150px"}}>
+      <NavbarComponent/>
+      <Container className='d-flex flex-row'>
+        <Image className='responsive-image' roundedCircle src='Photo.png'></Image>
+        <Container className='d-flex flex-column about-me'>
+          <p>Game programmer experienced in designing and programming game systems and tools for cross-platforms, who enjoys writing effective, well-organized code and is always eager to take on new challenges.</p>
+        </Container>
+      </Container>
+      <Container className="bg-section" id="projects">
+        <section className="pb-3 mb-4 border-bottom section-title">
           Projects
         </section>
         <Row xs={1} md={2} lg={3}>
-          <Col style={{ padding: "5px"}}>
+          <Col>
             <ProjectCardComponent
               title="Disney Magic Kingdom"
               companyName="Gameloft Toronto"
@@ -30,7 +37,7 @@ function App() {
             />
           </Col>
 
-          <Col style={{ padding: "5px"}}>
+          <Col>
             <ProjectCardComponent
               title="LEGO® Legacy: Heroes Unboxed"
               companyName="Gameloft Toronto"
@@ -43,7 +50,7 @@ function App() {
           </Col>
 
 
-          <Col style={{ padding: "5px"}}>
+          <Col>
             <ProjectCardComponent
               title="SongPop Party"
               companyName="Gameloft Toronto"
@@ -55,7 +62,7 @@ function App() {
             />
           </Col>
 
-        <Col style={{ padding: "5px"}}>
+          <Col>
             <ProjectCardComponent
               title="Smash Ball"
               companyName="Game Pill"
@@ -67,7 +74,7 @@ function App() {
             />
           </Col>
 
-          <Col style={{ padding: "5px"}}>
+          <Col>
             <ProjectCardComponent
               title="Unannounced project"
               companyName="Gameloft Toronto"
@@ -80,7 +87,7 @@ function App() {
           </Col>
 
 
-          <Col style={{ padding: "5px"}}>
+          <Col>
             <ProjectCardComponent
               title="Unannounced project"
               companyName="Gameloft Toronto"
@@ -101,10 +108,10 @@ function App() {
       </Container>
 
 
-      <Container fluid className="bg_info" id="experience">
+      <Container fluid className="bg-section" id="experience">
         <Container className="container">
 
-          <section className="pb-3 mb-4 border-bottom section_title">
+          <section className="pb-3 mb-4 border-bottom section-title">
             Experience
           </section>
 
@@ -212,10 +219,10 @@ function App() {
         </Container>
       </Container>
 
-      <Container fluid className="bg_projects" id="education">
+      <Container fluid className="bg-section" id="education">
         <Container className="container">
 
-          <section className="pb-3 mb-4 border-bottom section_title">
+          <section className="pb-3 mb-4 border-bottom section-title">
             Education
           </section>
 
