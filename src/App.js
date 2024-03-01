@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCardComponent from './components/ProjectCardComponent';
@@ -14,7 +13,7 @@ function App() {
 
     <Container fluid>
       <NavbarComponent></NavbarComponent>
-      <Container className="bg_projects" id="projects"  style={{paddingTop: "70px"}}>
+      <Container className="bg_projects" id="projects"  style={{paddingTop: "130px"}}>
         <section className="pb-3 mb-4 border-bottom section_title">
           Projects
         </section>
@@ -55,9 +54,6 @@ function App() {
               logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
             />
           </Col>
-
-        </Row>
-        <Row xs={1} md={2} lg={3}>
 
         <Col style={{ padding: "5px"}}>
             <ProjectCardComponent

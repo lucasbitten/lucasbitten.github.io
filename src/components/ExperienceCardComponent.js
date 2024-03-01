@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
 const ExperienceCardComponent = ({ title, companyName, time, place, description, logoSrc }) => {
     return (
-        <Card style={{ border: "0" }}>
+        <Card style={{ border: "0"}}>
             <Card.Body>
                 <Container className='d-flex' style={{ padding: "0px" }}>
                     <Container style={{ padding: "0px" }}>
