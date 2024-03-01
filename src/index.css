@@ -47,13 +47,31 @@
 
 .responsive-image {
   max-width: 25%;
-  height: auto;
+  max-height: auto;
   border: 1px solid #000;
   object-fit: cover;
+  resize: horizontal;
 }
 
 .about-me
 {
   font-size: calc(.5em + 1.5vw);
   justify-content: center;
+}
+
+.about-me-container
+{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me-container
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
 }

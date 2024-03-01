@@ -14,7 +14,7 @@ function App() {
 
     <Container fluid style={{marginTop: "150px"}}>
       <NavbarComponent/>
-      <Container className='d-flex flex-row'>
+      <Container className='about-me-container'>
         <Image className='responsive-image' roundedCircle src='Photo.png'></Image>
         <Container className='d-flex flex-column about-me'>
           <p>Game programmer experienced in designing and programming game systems and tools for cross-platforms, who enjoys writing effective, well-organized code and is always eager to take on new challenges.</p>
