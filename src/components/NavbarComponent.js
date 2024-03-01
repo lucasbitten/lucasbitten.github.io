@@ -6,27 +6,27 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function NavbarComponent() {
     return (
-        <Navbar expand="lg" className="d-flex flex-row bg-body-tertiary" data-bs-theme="dark" fixed='top'>
-            <Container>
-                <Container className="d-flex flex-column">
-                    <Navbar.Brand className='mb-0' href="#projects" style={{fontSize: "2.5em", marginTop: '-5px'}}>Lucas B. Bittencourt</Navbar.Brand>
-                    <Navbar.Text style={{marginTop: '-15px'}}>Game Programmer</Navbar.Text>
-                </Container>
+        <Navbar expand="md" className="d-flex flex-row bg-body-tertiary" data-bs-theme="dark" fixed='top'>
+            <Container fluid>
+                <div className="d-flex flex-column d-inline">
+                    <Navbar.Brand className='mb-0 brand-name' href="#projects">Lucas B. Bittencourt</Navbar.Brand>
+                    <Navbar.Text className='d-flex flex-column' style={{marginTop: '-15px'}}>Game Programmer</Navbar.Text>
+                </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="ms-auto" style={{marginRight: "20px"}}>
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#experience">Experience</Nav.Link>
                         <Nav.Link href="#education">Education</Nav.Link>
                     </Nav>
-                    <Container className='d-flex flex-row-reverse gap-4'>
+                    <div className='d-flex gap-4 d-inline social-icons-container'>
                         <a href='https://www.linkedin.com/in/lucasbbittencourt/'>
                         <FontAwesomeIcon icon={faLinkedin} className='social-icons'/>
                         </a>
                         <a href='https://github.com/lucasbitten'>
                         <FontAwesomeIcon icon={faGithub} className='social-icons' />
                         </a>
-                    </Container>
+                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

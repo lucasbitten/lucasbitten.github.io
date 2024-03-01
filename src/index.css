@@ -1,17 +1,15 @@
-.bg-section
-{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.bg-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-title {
-    text-align: center;
-    font-size: 2rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 
-.card-bottom
-{
+.card-bottom {
   flex-direction: row-reverse;
 }
 
@@ -29,8 +27,7 @@
   margin-left: -20px;
 }
 
-.project-image
-{
+.project-image {
   height: 199px;
   object-fit: contain;
   position: absolute;
@@ -39,28 +36,78 @@
   right: 0;
 }
 
-.social-icons
+.brand-name
 {
+  font-size: 2.5em !important;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .brand-name {
+    font-size: 1.5em !important;
+  }
+}
+
+.social-icons {
   color: #ffffff;
   height: 48px
+}
+
+.social-icons-container {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 767px) {
+  .social-icons-container {
+    flex-direction: row;
+  }
 }
 
 .responsive-image {
   max-width: 25%;
   max-height: auto;
-  border: 1px solid #000;
+  border: 1px solid #ccc;
   object-fit: cover;
   resize: horizontal;
 }
 
-.about-me
-{
-  font-size: calc(.5em + 1.5vw);
+.about-me {
+  font-size: 1em;
   justify-content: center;
 }
 
-.about-me-container
-{
+
+@media only screen and (max-width: 576px) {
+  .about-me {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .about-me {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .about-me {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .about-me {
+    font-size: 2em;
+  }
+}
+
+#experience {
+  scroll-margin-top: 4em;
+}
+
+
+
+.about-me-container {
   padding-top: 20px;
   display: flex;
   flex-direction: row;
@@ -68,8 +115,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .about-me-container
-  {
+  .about-me-container {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
