@@ -20,7 +20,7 @@ function App() {
           <Col style={{ padding: "5px"}}>
             <ProjectCardComponent
               title="Disney Magic Kingdom"
-              time="January 2022 - November 2023"
+              companyName="Gameloft Toronto"
               projectImage="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKrodWjRjr7pwTP_AMc9rmBK1NiRvMyjupMwjofTmnQLiK4cdBCoDTF1JkQYtsEpe3"
               environment="Unity, Visual Studio, C#, C++"
               description="Ported and adapted C++ code to Unity, fixed bugs, implemented features"
@@ -32,7 +32,7 @@ function App() {
           <Col style={{ padding: "5px"}}>
             <ProjectCardComponent
               title="LEGO® Legacy: Heroes Unboxed"
-              time="April 2020 - September 2020"
+              companyName="Gameloft Toronto"
               projectImage="https://play-lh.googleusercontent.com/pgxuatGUAdw1KHnWM_UKTYcGw8erFmhxY4WIwlGnFlIKMw5zzub_6nQPEXeszXGEzLk4=w240-h480-rw"
               environment="C#, Visual Studio, Proprietary Engine"
               description="Implemented features, fixed bugs"
@@ -45,7 +45,7 @@ function App() {
           <Col style={{ padding: "5px"}}>
             <ProjectCardComponent
               title="SongPop Party"
-              time="February 2022 - August 2022"
+              companyName="Gameloft Toronto"
               projectImage="https://images.nintendolife.com/d1d7e92f2631b/songpop-party-cover.cover_large.jpg"
               environment="Unity, Visual Studio, C#"
               description="Fixed gameplay bugs"
@@ -57,10 +57,22 @@ function App() {
         </Row>
         <Row xs={1} md={2} lg={3}>
 
+        <Col style={{ padding: "5px"}}>
+            <ProjectCardComponent
+              title="Smash Ball"
+              companyName="Game Pill"
+              projectImage="https://media.moddb.com/images/games/1/75/74928/1024_thumb.jpg"
+              environment="Unity, Visual Studio, C#, C++"
+              description="Implemented gameplay functionalities and fixed bugs"
+              playLink="https://store.steampowered.com/app/905360/Smash_Ball/"
+              logoSrc="https://media.licdn.com/dms/image/D560BAQHhhVGSr4nKeA/company-logo_200_200/0/1684957962085/gamepillinc_logo?e=2147483647&v=beta&t=5uZu5pTSYpeEWFsS_sN6AYGRMU5Y-75gD6BUpTmlH3M"
+            />
+          </Col>
+
           <Col style={{ padding: "5px"}}>
             <ProjectCardComponent
               title="Unannounced project"
-              time="July 2021 - December 2021"
+              companyName="Gameloft Toronto"
               projectImage="Question mark.png"
               environment="Unity, Visual Studio, C#"
               description="Implemented gameplay features to rapidly created prototype"
@@ -73,7 +85,7 @@ function App() {
           <Col style={{ padding: "5px"}}>
             <ProjectCardComponent
               title="Unannounced project"
-              time="December 2023 - February 2024"
+              companyName="Gameloft Toronto"
               projectImage="Question mark.png"
               environment="Unity, Visual Studio, C#"
               description="Implemented foundation systems and added gameplay functionalities"
@@ -83,17 +95,7 @@ function App() {
           </Col>
 
 
-          <Col style={{ padding: "5px"}}>
-            <ProjectCardComponent
-              title="Smash Ball"
-              time="April 2021 - July 2021"
-              projectImage="https://media.moddb.com/images/games/1/75/74928/1024_thumb.jpg"
-              environment="Unity, Visual Studio, C#, C++"
-              description="Implemented gameplay functionalities and fixed bugs"
-              playLink="https://store.steampowered.com/app/905360/Smash_Ball/"
-              logoSrc="https://media.licdn.com/dms/image/D560BAQHhhVGSr4nKeA/company-logo_200_200/0/1684957962085/gamepillinc_logo?e=2147483647&v=beta&t=5uZu5pTSYpeEWFsS_sN6AYGRMU5Y-75gD6BUpTmlH3M"
-            />
-          </Col>
+
 
 
         </Row>

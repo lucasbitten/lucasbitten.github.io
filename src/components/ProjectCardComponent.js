@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 
-const ProjectCardComponent = ({ title, time, projectImage, environment, description, playLink, logoSrc }) => {
+const ProjectCardComponent = ({ title, companyName, projectImage, environment, description, playLink, logoSrc }) => {
   return (
     <Card className='card-component shadow shadow-md'>
       <Container style={{height: "200px", borderBottom: "solid 1px #dddddd", overflow: 'hidden'}}>
@@ -14,7 +14,7 @@ const ProjectCardComponent = ({ title, time, projectImage, environment, descript
     <Card.Body>
       <Card.Title>{title}</Card.Title>
       <Card.Subtitle>
-      {time} 
+      {companyName} 
       </Card.Subtitle>
       <br/>
       <Card.Text>
