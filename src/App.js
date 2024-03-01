@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectCardComponent from './components/ProjectCardComponent';
 import ExperienceCardComponent from './components/ExperienceCardComponent';
+import NavbarComponent from './components/NavbarComponent';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
@@ -12,7 +13,8 @@ function App() {
   return (
 
     <Container fluid>
-      <Container className="bg_projects">
+      <NavbarComponent></NavbarComponent>
+      <Container className="bg_projects" id="projects"  style={{paddingTop: "70px"}}>
         <section className="pb-3 mb-4 border-bottom section_title">
           Projects
         </section>
@@ -103,7 +105,7 @@ function App() {
       </Container>
 
 
-      <Container fluid className="bg_info">
+      <Container fluid className="bg_info" id="experience">
         <Container className="container">
 
           <section className="pb-3 mb-4 border-bottom section_title">
@@ -214,7 +216,7 @@ function App() {
         </Container>
       </Container>
 
-      <Container fluid className="bg_projects">
+      <Container fluid className="bg_projects" id="education">
         <Container className="container">
 
           <section className="pb-3 mb-4 border-bottom section_title">
