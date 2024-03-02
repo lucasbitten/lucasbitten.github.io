@@ -241,7 +241,7 @@ function App() {
                   place="Rio de Janeiro, Brazil"
                   description=""
                   companyName=""
-                  logoSrc="https://media.licdn.com/dms/image/C560BAQEzOnkCNuO0EQ/company-logo_100_100/0/1653335082223/universidade_federal_fluminense_logo?e=1717027200&v=beta&t=wwXI-x_17w2k7jgxiZDkymxc6r4ouxS3KTVfgHmG-4A"
+                  logoSrc="LogoUff.png"
                 >
                 </ExperienceCardComponent>
               </ListGroup.Item>

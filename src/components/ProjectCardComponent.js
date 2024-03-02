@@ -27,7 +27,7 @@ const ProjectCardComponent = ({ title, companyName, projectImage, environment, d
       {description}
       </Card.Text>
       <Container className="d-flex justify-content-between project-card-bottom align-items-center" style={{padding: "0px"}} >
-          <img width="48" height="48" src={logoSrc} alt="Company Logo" />
+          <img className='company-logo' src={logoSrc} alt="Company Logo" />
           {playLink && playLink.trim() !== '' && (
             <Button variant={isDarkMode ? 'dark' : 'outline-secondary'} href={playLink}>Play</Button>
           )}

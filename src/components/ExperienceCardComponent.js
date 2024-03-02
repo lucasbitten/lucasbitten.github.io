@@ -17,7 +17,7 @@ const ExperienceCardComponent = ({ title, companyName, time, place, description,
                             {place}
                         </Card.Subtitle>
                     </Container>
-                    <Card.Img variant="top" src={logoSrc} alt="Company Logo" style={{ width: "48px", height: "48px" }} />
+                    <Card.Img variant="top" src={logoSrc} alt="Company Logo" className='company-logo' />
 
                 </Container>
                 <br />

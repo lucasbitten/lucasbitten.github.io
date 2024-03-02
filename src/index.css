@@ -202,3 +202,9 @@
     row-gap: 10px;
   }
 }
+
+.company-logo
+{
+  width: 64px !important;
+  height: 64px;
+}
