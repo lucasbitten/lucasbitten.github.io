@@ -1,3 +1,8 @@
+.body
+{
+  background-color: var(--background);
+}
+
 .bg-section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -6,17 +11,80 @@
 .section-title {
   text-align: center;
   font-size: 2rem;
+  color: var(--text);
 }
 
 
-.card-bottom {
+.project-card-bottom {
   flex-direction: row-reverse;
 }
 
-.card-component {
+.project-card-body
+{
+  height: 100% !important;
+}
+
+.project-card-component {
+  min-width: 310px !important;
   flex: auto;
   overflow: hidden;
   margin: 5px;
+  background-color: var(--cardBackground) !important;
+}
+
+.column
+{
+  margin-bottom: 20px;
+}
+
+.card-text
+{
+  color: var(--text) !important;
+}
+
+.project-card-title
+{
+  font-size: 1.5em !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .project-card-title
+  {
+    font-size: 1.2em !important;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .project-card-title
+  {
+    font-size: 1.2em !important;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1399px) {
+  .project-card-title
+  {
+    font-size: 1em !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .project-card-title
+  {
+    font-size: 1.5em !important;
+  }
+}
+
+.project-card-text
+{
+  height: 48px;
+}
+
+.project-card-image-container
+{
+  height: 200px;
+  border-bottom: solid 1px var(--cardImageBorder);
+  overflow: hidden;
 }
 
 .blurred-image {
@@ -34,6 +102,18 @@
   top: 0;
   left: 0;
   right: 0;
+}
+
+.experience-card
+{
+  background-color: var(--cardBackground) !important;
+  border: 0;
+}
+
+.experience-list-item
+{
+  background-color: var(--background) !important;
+  border: 0 !important;
 }
 
 .brand-name
@@ -74,6 +154,7 @@
 .about-me {
   font-size: 1em;
   justify-content: center;
+  color: var(--text);
 }
 
 

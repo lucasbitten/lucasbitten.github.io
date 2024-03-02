@@ -7,7 +7,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 function NavbarComponent() {
     return (
         <Navbar expand="md" className="d-flex flex-row bg-body-tertiary" data-bs-theme="dark" fixed='top'>
-            <Container fluid>
+            <Container>
                 <div className="d-flex flex-column d-inline">
                     <Navbar.Brand className='mb-0 brand-name' href="#projects">Lucas B. Bittencourt</Navbar.Brand>
                     <Navbar.Text className='d-flex flex-column' style={{marginTop: '-15px'}}>Game Programmer</Navbar.Text>

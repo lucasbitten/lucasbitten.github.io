@@ -3,12 +3,13 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 
 const ExperienceCardComponent = ({ title, companyName, time, place, description, logoSrc }) => {
+
     return (
-        <Card style={{ border: "0"}}>
+        <Card className='experience-card'>
             <Card.Body>
                 <Container className='d-flex' style={{ padding: "0px" }}>
                     <Container style={{ padding: "0px" }}>
-                        <Card.Title>
+                        <Card.Title className='card-text'>
                             {title}
                             {companyName !== '' ? <span> - {companyName}</span> : null}</Card.Title>
                         <Card.Subtitle style={{ fontSize: "0.9em", color: "#999", marginTop: "4px"}}>
@@ -26,7 +27,6 @@ const ExperienceCardComponent = ({ title, companyName, time, place, description,
                 </Card.Text>
             </Card.Body>
         </Card>
-
     );
 };
 
