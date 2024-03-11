@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import {openInNewTab} from '../utils/Utils'
 
 function NavbarComponent() {
     return (
@@ -20,10 +21,10 @@ function NavbarComponent() {
                         <Nav.Link href="#education">Education</Nav.Link>
                     </Nav>
                     <div className='d-flex gap-4 d-inline social-icons-container'>
-                        <a href='https://www.linkedin.com/in/lucasbbittencourt/'>
+                        <a  onClick={() => openInNewTab('https://www.linkedin.com/in/lucasbbittencourt/')}>
                         <FontAwesomeIcon icon={faLinkedin} className='social-icons'/>
                         </a>
-                        <a href='https://github.com/lucasbitten'>
+                        <a  onClick={() => openInNewTab('https://github.com/lucasbitten')}>
                         <FontAwesomeIcon icon={faGithub} className='social-icons' />
                         </a>
                     </div>

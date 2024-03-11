@@ -9,7 +9,7 @@ import SectionHeaderComponent from './components/SectionHeaderComponent'
 import Container from 'react-bootstrap/Container';
 import ListGroup from 'react-bootstrap/ListGroup';
 import { DarkModeProvider } from './DarkModeContext';
-import ExperienceComponent from './components/ExperienceComponent'
+import ExperiencesComponent from './components/ExperiencesComponent'
 import ProjectsComponent from './components/ProjectsComponent'
 import EducationsComponent from './components/EducationsComponent'
 
@@ -20,7 +20,7 @@ function App() {
         <NavbarComponent/>
         <AboutMeComponent/>
         <ProjectsComponent/>
-        <ExperienceComponent/>
+        <ExperiencesComponent/>
         <EducationsComponent/>
       </Container>
       </DarkModeProvider>

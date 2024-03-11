@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import { useDarkMode } from '../DarkModeContext';
+import {openInNewTab} from '../utils/Utils'
 
 const ProjectCardComponent = ({ title, companyName, projectImage, environment, description, playLink, logoSrc }) => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
@@ -21,16 +22,13 @@ const ProjectCardComponent = ({ title, companyName, projectImage, environment, d
       </Card.Subtitle>
       <br/>
       <Card.Text>
-      {environment} 
+      <strong>Enviroment: </strong>{environment} 
       </Card.Text>
       <Card.Text style={{ height: "75px", overflow: "hidden" }}>
       {description}
       </Card.Text>
-      <Container className="d-flex justify-content-between project-card-bottom align-items-center" style={{padding: "0px"}} >
-          <img className='company-logo' src={logoSrc} alt="Company Logo" />
-          {playLink && playLink.trim() !== '' && (
-            <Button variant={isDarkMode ? 'dark' : 'outline-secondary'} href={playLink}>Play</Button>
-          )}
+      <Container style={{padding: "0px"}} >
+        <Button variant={isDarkMode ? 'dark' : 'outline-secondary'} disabled={!playLink || playLink.trim() === ''} onClick={() => openInNewTab(playLink)}>Play</Button>
       </Container>
     </Card.Body>
   </Card>
