@@ -15,7 +15,7 @@ function ProjectsComponent() {
                 companyName="Gameloft Toronto"
                 projectImage="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKrodWjRjr7pwTP_AMc9rmBK1NiRvMyjupMwjofTmnQLiK4cdBCoDTF1JkQYtsEpe3"
                 environment="Unity, C#, C++"
-                description="Ported and adapted C++ code to Unity, fixed bugs, implemented features"
+                description="Ported and adapted C++ code to Unity, fixed bugs, implemented features."
                 playLink="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDYHM"
                 logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
               />
@@ -27,7 +27,7 @@ function ProjectsComponent() {
                 companyName="Gameloft Toronto"
                 projectImage="https://play-lh.googleusercontent.com/pgxuatGUAdw1KHnWM_UKTYcGw8erFmhxY4WIwlGnFlIKMw5zzub_6nQPEXeszXGEzLk4=w240-h480-rw"
                 environment="C#, Proprietary Engine"
-                description="Implemented features, fixed bugs"
+                description="Implemented features, fixed bugs."
                 playLink="https://apps.apple.com/us/app/lego-legacy-heroes-unboxed/id1644208767"
                 logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
               />
@@ -40,7 +40,7 @@ function ProjectsComponent() {
                 companyName="Gameloft Toronto"
                 projectImage="https://images.nintendolife.com/d1d7e92f2631b/songpop-party-cover.cover_large.jpg"
                 environment="Unity, C#"
-                description="Fixed gameplay bugs"
+                description="Fixed gameplay bugs."
                 playLink="https://songpop-party.com/"
                 logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
               />
@@ -52,7 +52,7 @@ function ProjectsComponent() {
                 companyName="Game Pill"
                 projectImage="https://media.moddb.com/images/games/1/75/74928/1024_thumb.jpg"
                 environment="Unity, C#"
-                description="Implemented gameplay functionalities and fixed bugs"
+                description="Implemented gameplay functionalities and fixed bugs."
                 playLink="https://store.steampowered.com/app/905360/Smash_Ball/"
                 logoSrc="https://media.licdn.com/dms/image/D560BAQHhhVGSr4nKeA/company-logo_200_200/0/1684957962085/gamepillinc_logo?e=2147483647&v=beta&t=5uZu5pTSYpeEWFsS_sN6AYGRMU5Y-75gD6BUpTmlH3M"
               />
@@ -64,7 +64,7 @@ function ProjectsComponent() {
                 companyName="Gameloft Toronto"
                 projectImage="Question mark.png"
                 environment="Unity, C#"
-                description="Implemented gameplay features to rapidly created prototype"
+                description="Implemented gameplay features to rapidly created prototype."
                 playLink=""
                 logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
               />
@@ -77,7 +77,7 @@ function ProjectsComponent() {
                 companyName="Gameloft Toronto"
                 projectImage="Question mark.png"
                 environment="Unity, C#"
-                description="Implemented foundation systems and added gameplay functionalities"
+                description="Implemented foundation systems and added gameplay functionalities."
                 playLink=""
                 logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
               />
@@ -143,7 +143,7 @@ function ProjectsComponent() {
                 title="Royal Rush"
                 projectImage="Royal Rush.png"
                 environment="C++, SDL2"
-                description="A 2D stealth platformer crafted in C++. The player must utilize shadows to evade enemies and navigate through levels, aiming to reach the end undetected"
+                description="A 2D stealth platformer crafted in C++. The player must utilize shadows to evade enemies and navigate through levels, aiming to reach the end undetected."
                 playLink=""
               />
             </Col>
