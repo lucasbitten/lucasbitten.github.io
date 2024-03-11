@@ -21,7 +21,7 @@
 
 .project-card-body
 {
-  height: 100% !important;
+  height: 300px !important;
 }
 
 .project-card-component {
@@ -30,8 +30,13 @@
   overflow: hidden;
   margin: 5px;
   background-color: var(--cardBackground) !important;
+  display: flex;
+  flex-direction: column;
 }
 
+.project-card-button-container {
+  margin-top: auto;
+}
 .column
 {
   margin-bottom: 20px;
@@ -78,6 +83,7 @@
 .project-card-text
 {
   height: 48px;
+  flex-grow: 1;
 }
 
 .project-card-image-container
