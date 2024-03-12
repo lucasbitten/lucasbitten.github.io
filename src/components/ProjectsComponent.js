@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 function ProjectsComponent() {
     return (
         <Container className="bg-section" id="projects">
-          <SectionHeaderComponent title={'Comercial Projects'}/>
+          <SectionHeaderComponent title={'Commercial Projects'}/>
           <Row xs={1} md={2} lg={3}>
             <Col className='column'>
               <ProjectCardComponent
@@ -15,7 +15,7 @@ function ProjectsComponent() {
                 companyName="Gameloft Toronto"
                 projectImage="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKrodWjRjr7pwTP_AMc9rmBK1NiRvMyjupMwjofTmnQLiK4cdBCoDTF1JkQYtsEpe3"
                 environment="Unity, C#, C++"
-                description="Ported and adapted C++ code to Unity, fixed bugs, implemented features."
+                description="Implemented features/tools, fixed bugs."
                 playLink="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDYHM"
                 logoSrc="https://media.licdn.com/dms/image/D4E0BAQEmwyoTRo6i9w/company-logo_100_100/0/1703064670906/gameloft_logo?e=1717027200&amp;v=beta&amp;t=SmA9SRuEjksUxBFt0l-McQcbVIxy7_ETjOw0Al_oH-U"
               />
