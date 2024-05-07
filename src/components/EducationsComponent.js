@@ -6,7 +6,7 @@ import ExperienceCardComponent from './ExperienceCardComponent';
 const EducationsComponent = () => {
   const educationList = [
     {
-      title: "Centennial College",
+      title: "Game Programming Adv. Diploma - Centennial College",
       time: "2019 - 2021",
       place: "Toronto, Canada",
       companyName: "",
@@ -14,7 +14,7 @@ const EducationsComponent = () => {
       logoSrc: "https://media.licdn.com/dms/image/D560BAQGDFaZK89FUAQ/company-logo_100_100/0/1696248903527/centennial_college_logo?e=1717027200&v=beta&t=KkSJ7UsSovvZ3se-v0QEcw8HuKpfFBCtQfVzXym0yv4"
     },
     {
-      title: "Universidade Federal Fluminense",
+      title: "Mathematics Bachelor's Degree - Universidade Federal Fluminense",
       time: "2011 - 2018",
       place: "Rio de Janeiro, Brazil",
       companyName: "",
